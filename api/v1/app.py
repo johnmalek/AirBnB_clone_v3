@@ -21,7 +21,7 @@ def page_not_found(e):
     """handler for 404 errors that returns a JSON-formatted
     404 status code response.
     """
-    return ('{error': 'Not found'}), 404
+    return ({'error': 'Not found'}), 404
 
 
 if __name__ == "__main__":
